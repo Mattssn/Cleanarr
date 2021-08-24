@@ -49,7 +49,7 @@ version: '3'
 services:
 
   cleanarr:
-    image: selexin/cleanarr:latest
+    image: ghcr.io/mattssn/cleanarr:master
     container_name: cleanarr
     hostname: cleanarr
     ports:
